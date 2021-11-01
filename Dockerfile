@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17:alpine-slim
+FROM openjdk:17-jdk-alpine
 
 # Create User
 RUN addgroup -S remoapp && adduser -S remoapp -G remoapp
